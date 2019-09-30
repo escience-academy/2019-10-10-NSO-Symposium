@@ -2,6 +2,7 @@
 notebooks/data
 
 *.tmp
+*.nc
 
 venv
 .venv
