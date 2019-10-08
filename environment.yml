@@ -8,11 +8,14 @@ dependencies:
   - astroid=2.3.1=py37_0
   - attrs=19.1.0=py37_1
   - backcall=0.1.0=py37_0
+  - binutils_impl_linux-64=2.31.1=h6176602_1
+  - binutils_linux-64=2.31.1=h6176602_8
   - blas=1.0=mkl
   - bleach=3.1.0=py37_0
   - bokeh=1.3.4=py37_0
+  - bottleneck=1.2.1=py37h3010b51_1001
   - bzip2=1.0.8=h516909a_1
-  - ca-certificates=2019.9.11=hecc5488_0
+  - ca-certificates=2019.8.28=0
   - cartopy=0.17.0=py37hd759880_1006
   - certifi=2019.9.11=py37_0
   - cf-units=2.1.3=py37hc1659b7_0
@@ -21,9 +24,11 @@ dependencies:
   - chardet=3.0.4=py37_1003
   - click=7.0=py_0
   - cloudpickle=1.2.2=py_0
+  - convertdate=2.1.3=py_1000
   - cryptography=2.7=py37h72c5cf5_0
   - curl=7.65.3=hbc83047_0
   - cycler=0.10.0=py37_0
+  - cython=0.29.13=py37he6710b0_0
   - cytoolz=0.10.0=py37h516909a_0
   - dask=2.5.2=py_0
   - dask-core=2.5.2=py_0
@@ -32,24 +37,34 @@ dependencies:
   - defusedxml=0.6.0=py_0
   - distributed=2.5.2=py_0
   - entrypoints=0.3=py37_0
+  - ephem=3.7.7.0=py37h7b6447c_0
   - expat=2.2.6=he6710b0_0
+  - fbprophet=0.5=py37he1b5a44_0
   - fontconfig=2.13.0=h9420a91_0
   - freetype=2.9.1=h8a8886c_1
   - fsspec=0.5.2=py_0
+  - gcc_impl_linux-64=7.3.0=habb00fd_1
+  - gcc_linux-64=7.3.0=h553295d_8
   - geos=3.7.2=he1b5a44_2
+  - geoviews=1.5.0=py_0
   - glib=2.56.2=hd408876_0
   - gmp=6.1.2=h6c8ec71_1
   - gst-plugins-base=1.14.0=hbbd80ab_1
   - gstreamer=1.14.0=hb453b48_1
+  - gxx_impl_linux-64=7.3.0=hdf63c60_1
+  - gxx_linux-64=7.3.0=h553295d_8
   - hdf4=4.2.13=0
   - hdf5=1.10.2=hc401514_3
   - heapdict=1.0.1=py_0
+  - holidays=0.9.11=py_0
+  - holoviews=1.12.3=py_1
   - icu=58.2=h9c2bf20_1
   - idna=2.8=py37_1000
   - intel-openmp=2019.4=243
   - ipykernel=5.1.2=py37h39e3cac_0
   - ipython=7.8.0=py37h39e3cac_0
   - ipython_genutils=0.2.0=py37_0
+  - ipywidgets=7.5.1=py_0
   - iris=2.2.1=py37_0
   - isort=4.3.21=py37_0
   - jedi=0.15.1=py37_0
@@ -58,7 +73,9 @@ dependencies:
   - jpeg=9b=h024ee3a_2
   - json5=0.8.5=py_0
   - jsonschema=3.0.2=py37_0
+  - jupyter=1.0.0=py37_7
   - jupyter_client=5.3.3=py37_1
+  - jupyter_console=6.0.0=py37_0
   - jupyter_core=4.5.0=py_0
   - jupyterlab=1.1.4=py_0
   - jupyterlab_server=1.0.6=py_0
@@ -84,6 +101,7 @@ dependencies:
   - libxcb=1.13=h1bed415_1
   - libxml2=2.9.9=hea5a465_1
   - locket=0.2.0=py_2
+  - lunardate=0.2.0=py_0
   - markupsafe=1.1.1=py37h7b6447c_0
   - matplotlib=2.2.3=py37hb69df0a_0
   - mccabe=0.6.1=py_1
@@ -98,15 +116,16 @@ dependencies:
   - ncurses=6.1=he6710b0_1
   - netcdf4=1.4.1=py37ha292673_200
   - notebook=6.0.1=py37_0
-  - numpy=1.17.2=py37haad9e8e_0
+  - numpy=1.17.2=py37h95a1406_0
   - numpy-base=1.17.2=py37hde5b4d6_0
   - olefile=0.46=py_0
-  - openssl=1.1.1c=h516909a_0
+  - openssl=1.1.1d=h7b6447c_2
   - owslib=0.18.0=py_0
   - packaging=19.2=py_0
   - pandas=0.25.1=py37hb3f55d8_0
   - pandoc=2.2.3.2=0
   - pandocfilters=1.4.2=py37_1
+  - param=1.9.1=py_0
   - parso=0.5.1=py_0
   - partd=1.0.0=py_0
   - pcre=8.43=he6710b0_0
@@ -132,12 +151,15 @@ dependencies:
   - pyrsistent=0.15.4=py37h7b6447c_0
   - pyshp=2.1.0=py_0
   - pysocks=1.7.1=py37_0
+  - pystan=2.19.0.0=py37h962f231_0
   - python=3.7.4=h265db76_1
   - python-dateutil=2.8.0=py37_0
   - pytz=2019.2=py_0
+  - pyviz_comms=0.7.2=py_0
   - pyyaml=5.1.2=py37h516909a_0
   - pyzmq=18.1.0=py37he6710b0_0
   - qt=5.9.7=h5867ecd_1
+  - qtconsole=4.5.5=py_0
   - readline=7.0=h7b6447c_5
   - requests=2.22.0=py37_1
   - scikit-learn=0.21.3=py37hcdab131_0
@@ -161,7 +183,9 @@ dependencies:
   - wcwidth=0.1.7=py37_0
   - webencodings=0.5.1=py37_1
   - wheel=0.33.6=py37_0
+  - widgetsnbextension=3.5.1=py37_0
   - wrapt=1.11.2=py37h516909a_0
+  - xarray=0.13.0=py_0
   - xz=5.2.4=h14c3975_4
   - yaml=0.1.7=h14c3975_1001
   - zeromq=4.3.1=he6710b0_3
